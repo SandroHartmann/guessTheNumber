@@ -2,8 +2,9 @@ package com.company;
 
 public class Fizzbuzz {
     public static void main(String[] args) {
-
-
+        Fizzbuzz();
+    }
+    public static void Fizzbuzz(){
         int num= 30;
         for (int i = 1; i <= num; i++)
         {
@@ -17,3 +18,4 @@ public class Fizzbuzz {
         }
     }
 }
+
